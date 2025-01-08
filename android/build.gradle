@@ -1,5 +1,5 @@
 group 'com.amolg.flutterbarcodescanner'
-version '1.0-SNAPSHOT'
+version '2.0.0'
 
 buildscript {
     repositories {
@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "com.amolg.flutterbarcodescanner"
     compileSdkVersion 30
 
     defaultConfig {
